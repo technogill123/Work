@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client Data</title>
+</head>
+<body>
+    <h1>Please fill data in the form below:</h1>
+    <form method="POST" action="http://192.168.106.141:8083/pd">
+        <label>src:<input type="text" name="src" required></label>
+        <br>
+        <label>Email:<input type="text" name="status" required></label>
+        <br>
+        <label>Comment:<br><textarea name="name"></textarea></label>
+        <br>
+	<label>Comment:<br><textarea name="description"></textarea></label>
+        <br>
+	<label>Comment:<br><textarea name="path"></textarea></label>
+        <br>
+	<label>Comment:<br><textarea name="number"></textarea></label>
+        <br>
+	<label>Comment:<br><textarea name="error"></textarea></label>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="http://192.168.106.141:8083/vd">View feedbacks</a>
+</body>
+</html>
